@@ -78,7 +78,6 @@ button {
 }
 
 .image-area {
-    height: 50vh;
     display: grid;
     margin: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr;
