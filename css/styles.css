@@ -1,6 +1,5 @@
 /* mobile first design */
 
-
 /* body */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -13,11 +12,18 @@ body {
     background-color: whitesmoke;
 }
 
+/* buttons */
+
+button {
+    background-color: #f4b41a;
+    color: #143d59;
+}
+
 /* page grid */
 .page-grid {
     display: grid;
     grid-template-rows: 20px 2fr 3fr 4fr 20px;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas:
         "header header"
         "title title"
@@ -52,19 +58,21 @@ body {
 .title {
     font-weight: bold;
     color: #143d59;
-    font-size: ;
+    font-size: 2.5em;
 }
 
 
 /* welcome (3)*/
 .welcome-area {
     grid-area: welcome;
+    justify-content: center;
 
 }
 
 .mission-statement {
     font-style: italic;
-    text-align: center;
+    grid-area: 1;
+    padding-top: 10%;
 
 
 }
@@ -73,13 +81,14 @@ body {
     height: 50vh;
     display: grid;
     margin: auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "1"
         "2"
-        "3";
-    grid-gap: 10px;
+        "3"
+        "4";
+    grid-gap: 5vw;
 }
 
 .image-1 {
@@ -87,6 +96,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    grid-area: 2;
 }
 
 .image-2 {
@@ -94,6 +104,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    grid-area: 3;
 }
 
 .image-3 {
@@ -101,6 +112,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    grid-area: 4;
 }
 
 
@@ -119,11 +131,12 @@ body {
     border: 5px solid rgb(255, 255, 255);
 }
 
-.ex-blog-title {}
-
 .date-text {
     font-size: 0.5em;
+    font-style: italic;
 }
+
+.ex-blog-img {}
 
 .ex-blog-buttons {
     display: flex;
@@ -139,7 +152,36 @@ body {
 
 
 
+@media only screen and (min-width: 766px) {
 
+    .page-grid {
+        /* puts the welcome div and example blog post next to eachother */
+        grid-template-rows: 20px 1fr 7fr 20px;
+        grid-template-areas:
+            "header header"
+            "title title"
+            "welcome blog-post"
+            "footer footer"
+        ;
+    }
 
+    .mission-statement {
+        font-size: 25px;
+    }
 
-/* desktop resizing */
+    .ex-blog-img {
+        width: 50vw;
+        margin: auto;
+    }
+
+    button {
+        width: 100px;
+    }
+
+    .image-area {
+        height: 80%;
+        display: grid;
+        margin: auto;
+        grid-gap: 40px;
+    }
+}
