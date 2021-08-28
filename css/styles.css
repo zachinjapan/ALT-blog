@@ -1,0 +1,63 @@
+/* mobile first design */
+
+
+/* body */
+body {
+    font-family: montserart;
+    font-family: 'Montserrat', sans-serif;
+    /* main color
+        color: #143d59; */
+    /* secondary color
+     */
+}
+
+/* page grid */
+.page-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 4fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "title title"
+        "welcome welcome"
+        "blog-post blog-post"
+        "footer footer"
+
+    ;
+}
+
+/* header (1) */
+.header {
+    grid-area: header;
+}
+
+
+/* title (2) */
+.title-area {
+    background-color: #f4b41a;
+    text-align: center;
+    grid-area: title;
+}
+
+.title {
+    font-weight: bold;
+    color: #143d59;
+}
+
+
+/* welcome (3)*/
+
+
+
+/* blog post (4) */
+
+
+
+/* footer (5) */
+
+
+
+
+
+
+/* desktop resizing */
