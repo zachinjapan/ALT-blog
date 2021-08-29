@@ -7,6 +7,7 @@ body {
         color: #143d59; */
     /* secondary color: #f4b41a;
      */
+    color: #143d59;
 
     margin: 20px;
     background-color: whitesmoke;
@@ -52,6 +53,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-height: 270px;
 
 }
 
@@ -72,12 +74,16 @@ button {
 .mission-statement {
     font-style: italic;
     grid-area: 1;
-    padding-top: 10%;
+    font-size: 100%;
+    margin-top: 10%;
+}
 
-
+.japan {
+    color: rgb(199, 17, 17);
 }
 
 .image-area {
+    height: auto;
     display: grid;
     margin: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -107,7 +113,7 @@ button {
 }
 
 .image-3 {
-    background-image: url(/images/image-3.jpg);
+    background-image: url(/images/osaka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,7 +157,7 @@ button {
 
 
 
-@media only screen and (min-width: 766px) {
+@media only screen and (min-width: 768px) {
 
     .page-grid {
         /* puts the welcome div and example blog post next to eachother */
@@ -164,9 +170,7 @@ button {
         ;
     }
 
-    .mission-statement {
-        font-size: 25px;
-    }
+    .mission-statement {}
 
     .ex-blog-img {
         width: 50vw;
@@ -182,5 +186,13 @@ button {
         display: grid;
         margin: auto;
         grid-gap: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    .page-grid {
+        height: 100vh;
+        width: 100vw;
     }
 }
