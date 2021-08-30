@@ -1,0 +1,27 @@
+.blog-post {
+    display: grid;
+    grid-template-rows: 100px 1fr 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+        "header header"
+        "blog-list blog-post"
+        "footer footer"
+    ;
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.blog-list {
+    grid-area: blog-list;
+}
+
+.ex-blog-area {
+    grid-area: blog-post;
+}
+
+.footer {
+    grid-area: footer;
+}
