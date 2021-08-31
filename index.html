@@ -17,12 +17,13 @@
 <body>
     <!-- div to enable display grid to organize page -->
     <div class=page-grid>
-        <!-- header (1) -->
-        <nav class="header">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./blog-list.html">Posts</a>
-        </nav>
+        <!-- navbar (1) -->
+        <header>
+            <nav class="navbar">
+                <a href="./index.html" class="navbar-link">Home</a>
+                <a href="./blog-list.html" class="navbar-link">All Posts</a>
+            </nav>
+        </header>
         <!-- title (2) -->
         <div class="title-area">
             <h1 class="title">The ALT Handbook</h1>
@@ -43,22 +44,14 @@
                 <h3>How to convert to Japanese years <span class="date-text">August 10th 2021</span></h3>
                 <img src="/images/japanese-years.jpg" alt="Japanese prime minister" class="ex-blog-img">
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus ex amet illo
-                    doloremque maiores est, asperiores quis eveniet et.</h5>
+                    doloremque maiores est, asperiores quis eveniet et.......</h5>
                 <div class="ex-blog-buttons">
-                    <button>Full Article</button>
-                    <button>more posts</button>
-                </div>
-            </div>
-        </div>
-        <div class="ex-blog-area">
-            <div class="ex-blog">
-                <h3>How to convert to Japanese years <span class="date-text">August 10th 2021</span></h3>
-                <img src="/images/japanese-years.jpg" alt="Japanese prime minister" class="ex-blog-img">
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus ex amet illo
-                    doloremque maiores est, asperiores quis eveniet et.</h5>
-                <div class="ex-blog-buttons">
-                    <a href="/blog-posts/blog-post1/blog-post1.html"><button>Full Article</button></a>
-                    <button>more posts</button>
+                    <form action="/blog-posts/post1.html" method="get" target="_blank">
+                        <button type="submit">Full Article</button>
+                    </form>
+                    <form action="/blog-list.html" method="get" target="_blank">
+                        <button type="submit">More Posts</button>
+                    </form>
                 </div>
             </div>
         </div>
