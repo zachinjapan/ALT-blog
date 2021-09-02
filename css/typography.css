@@ -7,20 +7,21 @@ body {
     color: #143d59;
 }
 
-h1 {}
+/* h1 {}
 
 h2 {}
 
-h3 {}
+h3 {} */
 
 strong {
     color: rgb(199, 17, 17);
     background-color: white;
 }
 
+/* 
 em {}
 
-a {}
+a {} */
 
 .date-text {
     font-size: 0.5em;
