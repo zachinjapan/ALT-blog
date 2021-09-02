@@ -83,11 +83,6 @@ button:hover {
     margin-top: 10%;
 }
 
-.japan {
-    color: rgb(199, 17, 17);
-    background-color: white;
-}
-
 .image-area {
     height: auto;
     display: grid;
@@ -102,27 +97,24 @@ button:hover {
     grid-gap: 5vw;
 }
 
-.image-1 {
-    background-image: url(/images/image-1.jpg);
+.welcome-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.img-1 {
+    background-image: url(/images/image-1.jpg);
     grid-area: 2;
 }
 
-.image-2 {
+.img-2 {
     background-image: url(/images/image-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     grid-area: 3;
 }
 
-.image-3 {
+.img-3 {
     background-image: url(/images/osaka.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     grid-area: 4;
 }
 
@@ -142,10 +134,6 @@ button:hover {
     border: 5px solid rgb(255, 255, 255);
 }
 
-.date-text {
-    font-size: 0.5em;
-    font-style: italic;
-}
 
 .ex-blog-img {}
 

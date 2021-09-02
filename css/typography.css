@@ -13,8 +13,16 @@ h2 {}
 
 h3 {}
 
-strong {}
+strong {
+    color: rgb(199, 17, 17);
+    background-color: white;
+}
 
 em {}
 
 a {}
+
+.date-text {
+    font-size: 0.5em;
+    font-style: italic;
+}
