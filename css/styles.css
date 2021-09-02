@@ -1,13 +1,7 @@
-/* mobile first design */
+@import url(typography.css);
 
 /* body */
 body {
-    font-family: 'Montserrat', sans-serif;
-    /* main color
-        color: #143d59; */
-    /* secondary color: #f4b41a;
-     */
-    color: #143d59;
     margin: 20px;
     background-color: whitesmoke;
 }
@@ -45,6 +39,7 @@ button:hover {
     display: inline-flex;
     flex-direction: row;
     justify-content: left;
+    margin-bottom: 10px;
 }
 
 .navbar-link {
