@@ -1,3 +1,5 @@
+@import url(/css/styles.css);
+
 .blog-post {
     display: grid;
     grid-template-rows: 200px 1fr 700px 20px;

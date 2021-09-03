@@ -70,12 +70,6 @@ button:hover {
 
 }
 
-.mission-statement {
-    font-style: italic;
-    grid-area: 1;
-    font-size: 100%;
-    margin-top: 10%;
-}
 
 .image-area {
     height: auto;
@@ -155,8 +149,6 @@ button:hover {
             "footer footer"
         ;
     }
-
-    .mission-statement {}
 
     .ex-blog-img {
         width: 50vw;
