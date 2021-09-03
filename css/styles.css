@@ -62,12 +62,6 @@ button:hover {
 
 }
 
-.title {
-    font-weight: bold;
-    color: #143d59;
-    font-size: 2.5em;
-}
-
 
 /* welcome (3)*/
 .welcome-area {
@@ -134,8 +128,6 @@ button:hover {
     border: 5px solid rgb(255, 255, 255);
 }
 
-
-.ex-blog-img {}
 
 .ex-blog-buttons {
     display: flex;

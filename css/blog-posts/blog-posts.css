@@ -47,12 +47,16 @@
     margin: 10px 0 10px;
 }
 
+.blog-subheading {
+    text-align: center;
+}
+
 .ex-blog-area {
     grid-area: blog-post;
 }
 
 .ok-img {
-    float: left;
+    float: right;
     height: 200px;
     width: 200px;
     border-radius: 25%;
