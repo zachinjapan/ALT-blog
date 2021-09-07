@@ -77,17 +77,17 @@
 }
 
 .img-1 {
-    background-image: url(/images/image-1.jpg);
+    background-image: url(../images/image-1.jpg);
     grid-area: 2;
 }
 
 .img-2 {
-    background-image: url(/images/image-2.jpg);
+    background-image: url(../images/image-2.jpg);
     grid-area: 3;
 }
 
 .img-3 {
-    background-image: url(/images/osaka.jpg);
+    background-image: url(../images/osaka.jpg);
     grid-area: 4;
 }
 
