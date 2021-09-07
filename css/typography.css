@@ -43,3 +43,13 @@ strong {
     grid-area: 1;
     margin-top: 10%;
 }
+
+.navbar-link {
+    text-decoration-color: black;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 600;
+}
