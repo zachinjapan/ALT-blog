@@ -34,8 +34,6 @@
     grid-area: navbar;
     background-color: #f4b41a;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 /* add padding for mobile sizes */
@@ -46,6 +44,7 @@
 
     }
 }
+
 
 /* Author info */
 
