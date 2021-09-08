@@ -13,6 +13,23 @@
 
 }
 
+/* for desktop viewports */
+
+@media only screen and (min-width: 768px) {
+
+    .blog-post {
+        display: grid;
+        grid-template-rows: 100px 1fr 20px;
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas:
+            "navbar navbar"
+            "author-info blog-post"
+            "footer footer"
+        ;
+
+    }
+}
+
 .blog-title {
     grid-area: navbar;
     background-color: #f4b41a;
@@ -78,23 +95,4 @@
 
 .footer {
     grid-area: footer;
-}
-
-
-
-/* for desktop viewports */
-
-@media only screen and (min-width: 768px) {
-
-    .blog-post {
-        display: grid;
-        grid-template-rows: 100px 1fr 20px;
-        grid-template-columns: 1fr 5fr;
-        grid-template-areas:
-            "navbar navbar"
-            "author-info blog-post"
-            "footer footer"
-        ;
-
-    }
 }
