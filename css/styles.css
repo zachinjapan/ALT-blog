@@ -67,8 +67,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 
 }
+
+/* add padding for mobile sizes */
+@media only screen and (min-width: 768px) {
+    .title-area {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 
 
 /* welcome (3)*/
