@@ -5,7 +5,7 @@
 /* page grid */
 .page-grid {
     display: grid;
-    grid-template-rows: 20px 2fr 3fr 4fr 20px;
+    grid-template-rows: 20px 1fr 4fr 3fr 20px;
     grid-template-columns: 1fr 4fr;
     grid-template-areas:
         "navbar navbar"
@@ -137,16 +137,15 @@
     grid-area: 4;
 }
 
-
-
-@media only screen and (min-width: 768px) {
-
-
-    .ex-blog-img {
-        width: 50vw;
-        margin: auto;
-    }
+.welcome-img-cap {
+    padding-top: 200px;
 }
+
+.ex-blog-img {
+    width: 100%;
+    margin: auto;
+}
+
 
 
 /* blog post (4) */
