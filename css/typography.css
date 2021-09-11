@@ -45,6 +45,10 @@ u {
     text-decoration: solid;
 }
 
+b {
+    color: #143d59;
+}
+
 blockquote {
     color: brown;
     font-style: italic;
